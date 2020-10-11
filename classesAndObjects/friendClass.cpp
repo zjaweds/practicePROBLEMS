@@ -2,7 +2,7 @@
 1. Member functions of a Friend class and the friend class itself declared within
 another class have access to all members of the later class including the private 
 members
-2. Critical point is the friend function only has access to the members of the class
+2. Critical point is the friend class only has access to the members of the class
 whose friend it is but it the friend class does not inherit those members.
 3. Friend class is seldom used to get some specific purpose fulfilled
 */

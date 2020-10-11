@@ -1,7 +1,7 @@
 /* Structures and Unions in C can't have function within them but in C++ they can*/
 
 
-/*Restrictions on union in C++
+/*Restrictions on structures in C++
 A terminology POD plain old data i.e no member funtion, constructor and destructor 
 1. Structure can not inherit any class of any type
 2.It can not be base class

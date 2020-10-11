@@ -49,7 +49,7 @@ void c2::init(int k){
 }
 int main(){
     c1 ob1,ob2;
-    if(c1::getResource())//Accessing static member functio without object
+    if(c1::getResource())//Accessing static member function without object
         cout<<"ob1 has resource\n";
     if(!c1::getResource())
         cout<<"ob2 denied resource\n";

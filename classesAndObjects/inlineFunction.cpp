@@ -1,7 +1,7 @@
 /*
 1. It is just a request to the compiler to expand the functioon code at each
 invocation rather than calling the function everytime
-2. Acceptance or rejection of the request depents upon the siz of the code within
+2. Acceptance or rejection of the request depends upon the size of the code within
 the function block
 3. For making a function inline its definition should be preceded by inline keyword
 4. Inline functions are very efficient

@@ -12,7 +12,7 @@ int main(){
     char s2[]=" Alam";
     stradd(s1,s2);
     cout<<endl;
-    stradd(s1,137);
+    stradd(s1,117);
     return EXIT_SUCCESS;
 }
 

@@ -10,7 +10,7 @@ declaration of friend function*/
 #define IDLE 0
 #define INUSE 1
 using namespace std;
-class c2;
+class c2; //Forward declaration of class c2
 class c1{
     int status;
     public:
