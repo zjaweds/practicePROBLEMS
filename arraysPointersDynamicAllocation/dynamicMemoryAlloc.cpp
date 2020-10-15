@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include<new>
 using namespace std;
 
 int main(){
@@ -13,6 +13,7 @@ int main(){
     }
     catch(bad_alloc xa){
         cout<<"Memory allocation failed"<<endl;
+        return 1;
     }
     for(int i=0;i<4;i++){
         *ptrArray=i;
@@ -25,6 +26,6 @@ int main(){
     cout<<"Q: "<<*q<<endl<<endl;
     delete p;
     delete q;
-    delete ptrArray;
+    delete []ptrArray;
     return 0;
 }
