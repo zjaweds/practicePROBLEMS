@@ -2,6 +2,12 @@
 
 using namespace std;
 
+/*
+Operator overloading can be achieved by friend function or member function only  
+Further details after more exloration
+*/
+
+
 class Quantity{
     int weight;
     int volume;
