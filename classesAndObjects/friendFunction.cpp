@@ -35,4 +35,4 @@ int main(){
     n.setab(2,3);
     cout<<sum(n);//Calling friend function having object as an argument
     return 0;
-}s
+}
