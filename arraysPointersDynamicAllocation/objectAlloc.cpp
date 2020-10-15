@@ -28,7 +28,7 @@ class c1{
 
 int main(){
     cout<<"Hell's this World!"<<endl;
-    c1 *p,*q;
+    c1 *p,*q,*r;
     try{
         /*As arrays can't have initializer for dynamic memory allocation,therefore
         if a class contains constructor function it should be parameterless to have
@@ -44,11 +44,25 @@ int main(){
         return 1;
     }
 
+    /*------------------------------------  Fails if not commented---------------
+    r=new(nothrow) int(19);
+    if(!r){
+        cout<<"Allocation failed"<<endl;
+        return 1;
+    }
+    cout<<"\t"<<*r<<"\t"<<endl;
+    delete r; 
+
+
+    ------------------------------------  Fails if not commented---------------*/
+
+
     /*After allocation is successful every
     other operations are as of normal array of objects*/
     p->setNum(13);
     p->showNum();
     delete p;
     delete []q;
+    
     return 0;
 }
