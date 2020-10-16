@@ -1,6 +1,11 @@
 /*
 Through access grant declaration we can't raise or lower the access right in the base
 class as well as in the derived class
+
+
+base_class :: member_name
+
+Even for functions no parenthesis is required
 */
 
 
