@@ -1,3 +1,9 @@
+/*
+Through access grant declaration we can't raise or lower the access right in the base
+class as well as in the derived class
+*/
+
+
 #include<iostream>
 
 using namespace std;
