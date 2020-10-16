@@ -3,6 +3,7 @@ Restriction over operators (), [], -> overloading
 They must be overloaded as non static member function and they can't be friend
 
 ---[]---- Binary operator used for array subscripting
+---()---- Operator used to pass arguments
 */
 
 
