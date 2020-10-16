@@ -4,6 +4,9 @@ built in data types as well as by an object of a class
 
 Member overloaded functions pass left operand as this point which leads to incompatible 
 operation
+
+
+Here obj + int and int + obj operations have been performed
 */
 
 
