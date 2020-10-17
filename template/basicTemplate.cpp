@@ -1,3 +1,40 @@
+/*
+Template or generic functions can be overloaded and they will be used for specified parameters not the generic one
+
+
+template
+<class crawler>
+void sswap(crawler &x, crawler &y)
+{
+    crawler temp;
+
+    temp=x;
+    x=y;
+    y=temp;
+} 
+Valid template definition but we can't add any other thing in between the separated elements
+
+like 
+
+template
+int i;
+<class crawler>
+int j;
+void sswap(crawler &x, crawler &y)
+{
+    crawler temp;
+
+    temp=x;
+    x=y;
+    y=temp;
+} 
+declaration of variable is causing this error in this case
+
+
+*/
+
+
+
 #include<iostream>
 
 using namespace std;
