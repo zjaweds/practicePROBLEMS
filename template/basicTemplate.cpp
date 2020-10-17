@@ -1,4 +1,9 @@
 /*
+
+Generic functions are automatically overloaded according to the type of the data but they are not applicable if no of 
+arguments vary therefore more template definitons may be required.
+
+
 Template or generic functions can be overloaded explicitly and they will be used for specified parameters not the generic one
 
 General function overloading is supported as of now for explicit overloading but new overloading definition is as follows
