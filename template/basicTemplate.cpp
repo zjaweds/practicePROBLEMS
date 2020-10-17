@@ -1,5 +1,20 @@
 /*
-Template or generic functions can be overloaded and they will be used for specified parameters not the generic one
+Template or generic functions can be overloaded explicitly and they will be used for specified parameters not the generic one
+
+General function overloading is supported as of now for explicit overloading but new overloading definition is as follows
+
+inside underscores
+____________________________
+
+template<> return_type function_name<data_type>(data_type,data_type){
+    //--
+    //--
+}
+______________________________
+Right now there is a confusion what is to be mentioned inside angle brackett following function name 
+if more than one type of data are to be operated upon by the function. There may be comma separation I think but
+have not explored so far to be updated later
+
 
 
 template
