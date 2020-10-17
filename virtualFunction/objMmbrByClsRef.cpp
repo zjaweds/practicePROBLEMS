@@ -1,3 +1,11 @@
+/*
+Application of virtual function
+Run time polymorphism All required information required while running but not at the time of
+compilation this is where virtual function is helpful because according to the calling
+object member is called
+*/
+
+
 #include<iostream>
 
 using namespace std;
