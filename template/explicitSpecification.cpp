@@ -16,7 +16,6 @@ template<class Stacktype=int,int SIZE=10> class stack{
     }
     Stacktype &operator[](int i);
 };
-
 template <class Stacktype,int SIZE>
 Stacktype &stack<Stacktype,SIZE>::operator[](int i){
     if(i>SIZE-1||i<0){
@@ -26,6 +25,16 @@ Stacktype &stack<Stacktype,SIZE>::operator[](int i){
     }
     return stck[i];
 }
+
+
+template <>
+class stack<double>{
+    int x;
+    public:
+    stack(){
+        cout<<"Inside Explicit Specification"<<endl;
+    }
+};
 
 
 int main(){
