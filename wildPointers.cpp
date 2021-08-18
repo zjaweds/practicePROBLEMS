@@ -1,11 +1,16 @@
-#include<iostream>
+#include<string.h>
+#include<stdio.h>
 
 using namespace std;
 
 int main(){
-    int x, *p;
-    x = 10;
-    p = &x;
-    cout<<*p<<endl;
+    char *p1;
+    char s[90];
+    p1 = s;
+    do{
+        gets(s);
+
+
+    }whilw(strcmp(s, "done"));
     return 0;
 }
